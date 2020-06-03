@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <style>
+        
+label{
+    font-size:20px;
+    text-align:center;
+    font-family:Artifika;
+    color:rgb(255,255,255);
+}
+form{
+      background-color: black;
+}
+h1{
+    border-style: groove;
+    border-width: 2px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color:rgb(162, 232, 241);
+}
+
+.button {
+  background-color: rgb(1, 25, 29); 
+  border: solid;
+  color: rgb(162, 232,241);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: solid ;
+  display: inline-block;
+  font-size: 25px;
+  border-radius:30%;
+  font-family:Alike Angular;
+  box-shadow: 10px 5px 5px rgb(162, 232, 241);
+  margin: 10px 10px 10px 10px;
+}
+
+input{
+    text-align: center;
+    font-size: 20px;
+    font-family:Alike Angular;
+    width: 300px;
+
+}
+
+.position{
+  height: 18px;
+  border: 4px rgb(162, 232,241);
+  position: relative;
+}
+    </style>
+<head>
+ <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alike Angular' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<div style=" text-align:center;">
+<form>
+    <h1 style="font-family:Allerta Stencil; font-size: 50px; text-align:center; color:rgb(116, 204, 216);">REGISTRATION FORM</h1>
+    
+    <br>
+    <br>
+    <label for=name>Enter Full Name: </label><br>
+    <input type="text" id="name" placeholder="Alex Brian" style="text-align:center";>
+<br>
+<br>
+<br>
+    <label for=email>Enter e-mail ID: </label><br>
+    <input type="text" id="email" placeholder="xyz@xmail.com">
+
+    <br>
+    <br>
+    <br>
+    <label for=pno>Enter Phone No. : </label><br>
+    <input type="number" id="pno" placeholder="1234567890">
+<br>
+<br>
+<br>
+<label for=dob>Enter Date of Birth: </label><br>
+<input type="text" id="dob" placeholder="DD-MM-YYYY">
+
+<br>
+<br>
+<br>
+<div>
+<label for="gender">Select Gender: </label><br>
+<p text-align="center" style="font-size:5px;">
+<input type="radio" id="gender" value="gen" name="gen" class="position">
+<label for="gender"> &nbsp &nbsp male </label><br>
+<input type="radio" id="gender" name="gen" value="gen" class="position">
+<label for="gender" >female </label><br>
+<input type="radio" id="gender" name="gen" value="gen" class="position">
+<label for="gender" > &nbsp other </label>
+</p>
+<br>
+<br>
+<br>
+<label for=password >Enter password: </label><br>
+<input type="text" id="password" placeholder="*********" >
+<br>
+<br>
+<br>
+<br>
+<a href="http://localhost:52330/Signup.html" target="_blank">
+
+<input type="button" class="button" font-style="bold"  value="SUBMIT">
+</a>
+<br>
+<br>
+</form>
+</div>
+</html>
