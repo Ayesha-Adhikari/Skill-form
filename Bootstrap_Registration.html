@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<style>
+    .button {
+        background-color: rgb(0, 0, 3);
+        border: none;
+        color: rgb(248, 244, 248);
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 40px;
+        box-shadow: rgb(89, 202, 255);
+        border-radius: 50%;
+        font-family: Aldrich;
+    }
+
+    body {
+
+        background-image: linear-gradient(rgb(5, 0, 26), rgb(169, 204, 245));
+    }
+
+
+    label {
+        color: rgb(255, 255, 255);
+        font-family: Aldrich;
+        font-size: 20px;
+    }
+
+    input {
+        color: rgb(1, 0, 15);
+        font-family: Aldrich;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #234880, 0 0 5px #2c3377, 0 0 6px #100974, 0 0 7px #0d2964, 0 0 8px #021b6d;
+        }
+
+        to {
+            text-shadow: 0 0 2px #fff, 0 0 3px #1f475e, 0 0 5px #253475, 0 0 6px #172d49, 0 0 7px #19417e, 0 0 8px #216d8b, 0 0 9px #0e4392;
+        }
+    }
+</style>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet'>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <title>Registration form</title>
+</head>
+<div class="container">
+
+    <body>
+        <form>
+            <h1 class="glow" style="font-family: Rye; font-size: 46px; text-align: center;">REGISTRATION &nbsp; FORM
+            </h1>
+
+            <marquee>Hello! Welcome To The Registration Page</marquee>
+            <br>
+
+
+
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Enter Name</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Alex Brian">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Enter E-mail ID</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="xyz@abc.com">
+                </div>
+            </div>
+</div>
+<div class="container">
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Enter Phone No.</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="inputEmail3" placeholder="0123456789">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Enter Date Of Birth</label>
+        <div class="col-sm-10">
+            <input type="date" class="form-control" id="inputEmail3" placeholder="0123456789">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<fieldset class="form-group">
+    <div class="row">
+        <legend style="font-family:Aldrich; color: rgb(255, 255, 255);" class="col-form-label col-sm-2 pt-0">Select
+            Gender</legend>
+        <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label style="color: white" ; class="form-check-label" for="gridRadios1">
+                    male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label style="color: white)" ; class="form-check-label" for="gridRadios2">
+                    female
+                </label>
+            </div>
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label style="color: white" ; class="form-check-label" for="gridRadios3">
+                    other
+                </label>
+            </div>
+        </div>
+    </div>
+</fieldset>
+</div>
+
+<div class="container">
+<div class="form-group row">
+    <label style="color:white" ; for="inputPassword3" class="col-sm-2 col-form-label">Enter Password</label>
+    <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+</div>
+</div>
+<div style="text-align:center;">
+    <a href="http://localhost:52330/Signup.html" target="_blank">
+        <button type="button" class="button ">SUBMIT</button>
+    </a>
+</div>
+
+
+<br>
+<br>
+
+</form>
+</body>
+</div>
+
+</html>
